@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script type="text/javascript" src="/encoded-source.js"></script>
+    </head>
+    <body>
+        <h1>Custom Callbacks not executed</h1>
+        <ul>
+            <li>
+                <a onclick="arsmacrosNotifications.e()" href="#">Trigger time based callback manually</a>
+                <p>Note, that the event should be triggered, becuase end date is set to "2022/07/05" (see jscrambler.json below)</p>
+            </li>
+            <li>
+                <a onclick="arsmacrosNotifications.d()" href="#">Trigger domain based callback manually</a>
+                <p>Note, that the event should be triggered, becuase domain lock is set to "google.com" (see jscrambler.json below)</p>
+            </li>
+        </ul>
+        <h2>JS Scrambler config</h2>
+        <a href="/jsscrambler.json" download>Download the config</a>
+
+        <h2>Decoded source file</h2>
+        <a href="/decoded-source.js" download>Download decoded source</a>
+
+        <h2>Encoded source file</h2>
+        <a href="/encoded-source.js" download>Download encoded source</a>
+    </body>
+</html>

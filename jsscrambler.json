@@ -1,0 +1,60 @@
+{
+  "keys": {
+    "accessKey": null,
+    "secretKey": null
+  },
+  "applicationId": "5767d58c889382aa008c6d2d",
+  "params": [
+    {
+      "name": "whitespaceRemoval"
+    },
+    {
+      "name": "dotToBracketNotation"
+    },
+    {
+      "name": "dateLock",
+      "options": {
+        "countermeasures": {
+          "breakApplication": false,
+          "customCallback": "arsmacrosNotifications.e"
+        },
+        "endDate": "2022/07/05"
+      }
+    },
+    {
+      "name": "domainLock",
+      "options": {
+        "domains": [
+          "google.com"
+        ],
+        "countermeasures": {
+          "breakApplication": false,
+          "customCallback": "arsmacrosNotifications.d"
+        }
+      }
+    },
+    {
+      "name": "functionOutlining"
+    },
+    {
+      "name": "functionReordering"
+    },
+    {
+      "name": "stringConcealing"
+    },
+    {
+      "name": "booleanToAnything"
+    },
+    {
+      "name": "deadCodeInjection"
+    }
+  ],
+  "areSubscribersOrdered": false,
+  "useRecommendedOrder": true,
+  "jscramblerVersion": "7.3",
+  "tolerateMinification": false,
+  "profilingDataMode": "off",
+  "useAppClassification": true,
+  "browsers": {},
+  "sourceMaps": false
+}
